@@ -1,3 +1,4 @@
+#!/bin/bash
 # replace "/mnt/user/media/books/ebooks-gutenberg" with the location you want to sync these files to
 #
 # https://www.gutenberg.org/policy/robot_access.html
