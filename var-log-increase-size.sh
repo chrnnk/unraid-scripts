@@ -1,2 +1,2 @@
 #!/bin/bash
-mount -o remount,size=512m /var/log
+/usr/local/emhttp/webGui/scripts/notify -i normal -s "powertop --auto-tune (startup)" -b -d "$(mount -o remount,size=512m /var/log 2>&1)"
